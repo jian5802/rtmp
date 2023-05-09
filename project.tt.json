@@ -1,0 +1,9 @@
+{
+  "miniprogramRoot": "./",
+  "projectname": "rtmp",
+  "appid": "testAppId",
+  "setting": {
+    "es6": false,
+    "minified": false
+  }
+}
