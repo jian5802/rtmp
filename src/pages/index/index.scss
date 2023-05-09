@@ -1,0 +1,66 @@
+.rtmp {
+  padding: 5% 5%;
+  width: 90%;
+  height: 90%;
+
+  .pageForm{
+    width: 100%;
+
+    .pageItem {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      margin-bottom: 5%;
+
+      .radioBtn {
+        flex: 1;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .btnItem {
+          border: 1px solid #409eff;
+          background-color: white;
+          color: #409eff;
+          width: 33.33%;
+          height: 100%;
+          text-align: center;
+        }
+
+        .selected {
+          background-color: #409eff;
+          color: white;
+        }
+
+        .one {
+          border-radius: 4px 0 0 4px;
+        }
+
+
+        .last {
+          border-radius: 0 4px 4px 0;
+        }
+      }
+
+      .url {
+        flex: 1;
+        background-color: white;
+        border-radius: 4px;
+      }
+
+      .pageText {
+        color: white;
+        margin-right: 5%;
+      }
+
+      .textWhite {
+        color: white;
+      }
+    }
+  }
+
+  .startBtn{
+    //color: white;
+  }
+}
